@@ -3,9 +3,8 @@
  * using this formula:
  *      C = (F - 32) * 5/9
  */
-export function fahrenheitToCelius(temperature: number): number {
-    console.log(((temperature - 32) * 5) / 9);
-    return 0;
+export function fahrenheitToCelsius(temperature: number): number {
+    return ((temperature - 32) * 5) / 9;
 }
 
 /**
@@ -23,8 +22,7 @@ export function add3(first: number, second: number, third: number): number {
     if (third > 0) {
         sum += third;
     }
-    console.log(sum);
-    return 0;
+    return sum;
 }
 
 /**
@@ -33,8 +31,7 @@ export function add3(first: number, second: number, third: number): number {
  */
 export function shout(message: string): string {
     let upper = message.toUpperCase();
-    console.log(upper + "!");
-    return "";
+    return upper + "!";
 }
 
 /**
